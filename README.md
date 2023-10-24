@@ -1,1 +1,6 @@
-# template-web-houseware-with-bootstrap
+# Houseware Bootstrap 4 Template
+
+## Technologies
+- HTML
+- CSS
+- Javascript
