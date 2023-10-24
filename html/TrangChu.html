@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/TrangChu.css">
+    <link rel="stylesheet" href="../css/mdb.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <title>Trang chủ</title>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/mdb.min.js"></script>
+    <script src="../js/TrangChu.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/ListProduct.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid px-0">
+        <header class="row" style="background-color: #3F4451;">
+            <div class="col-md-1">
+                <a href="../html/TrangChu.html"><img src="../img/Logo/logo2.png" alt=""></a>
+            </div>
+            <nav class="navbar navbar-expand col-md-8">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item pf-5 pr-5 align-items-center font-weight-bold"><a href="../html/TrangChu.html"
+                            class="nav-link navbar-link">TRANG CHỦ</a></li>
+                    <li class="nav-item dropdown pf-5 pr-5 align-items-center font-weight-bold">
+                        <a href="" class="nav-link navbar-link dropdown-toggle" data-toggle="dropdown">SẢN PHẨM</a>
+                        <div class="dropdown-menu">
+                            <a href="../html/SanPham.html" class="dropdown-item pt-1 pb-0">Nồi chiên không dầu</a>
+                            <a href="../html/SanPham.html" class="dropdown-item pt-1 pb-0">Bếp điện - bếp từ</a>
+                            <a href="../html/SanPham.html" class="dropdown-item pt-1 pb-0">Dụng cụ nhà bếp</a>
+                            <a href="../html/SanPham.html" class="dropdown-item pt-1 pb-0">Bếp ga</a>
+                            <a href="../html/SanPham.html" class="dropdown-item pt-1 pb-0">Lò vi sóng</a>
+                            <a href="../html/SanPham.html" class="dropdown-item pt-1 pb-0">Lò nướng</a>
+                            <a href="../html/SanPham.html" class="dropdown-item pt-1 pb-0">Máy rửa chén</a>
+                            <a href="../html/SanPham.html" class="dropdown-item pt-1 pb-0">Máy pha cà phê</a>
+                        </div>
+                    </li>
+                    <li class="nav-item pf-5 pr-5 align-items-center font-weight-bold"><a href="../html/LienHe.html"
+                            class="nav-link navbar-link">LIÊN HỆ</a></li>
+                    <li class="nav-item pf-5 pr-5 align-items-center font-weight-bold"><a href="../html/VeChungToi.html"
+                            class="nav-link navbar-link">VỀ CHÚNG TÔI</a></li>
+                </ul>
+            </nav>
+            <div class="col-md-3">
+                <div class="row h-100">
+                    <div class="col-md d-flex flex-column justify-content-around">
+                        <div>
+                            <div class="d-inline-flex">
+                                <div class="d-flex flex-column justify-content-around"><i
+                                        class="fas fa-user-circle fa-2x navbar-link"></i></div>
+                                <div>
+                                    <a href="" class="text-decoration-none navbar-link" id="btnDangNhap"
+                                        data-toggle="modal">Đăng nhập</a>
+                                    <a href="../html/DangKy.html" class="text-decoration-none navbar-link">Đăng ký</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md d-flex flex-column justify-content-around">
+                        <div class="">
+                            <div class="d-inline-flex">
+                                <div class="d-flex flex-column justify-content-around"><i
+                                        class="fas fa-cart-shopping fa-2x navbar-link"></i></div>
+                                <div class="d-flex flex-column justify-content-around">
+                                    <a href="../html/GioHang.html" class="text-decoration-none navbar-link">Giỏ
+                                        hàng</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <marquee class="text-danger font-italic">Giảm ngay 10% cho lần đầu mua hàng. Áp dụng hết 3/5/2022</marquee>
+        <div class="container" style="background: none;">
+            <div class="row">
+                <div class="col-md-10">
+                    <div id="demo" class="carousel slide w-100 h-auto border-0" data-ride="carousel">
+
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../img/Sales/slider_1.webp" alt="" class="w-100 img-fluid">
+                            </div>
+                            <div class="carousel-item clearfix">
+                                <img src="../img/Sales/slider_2.webp" alt="" class="w-100 h-100 img-fluid">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/Sales/slider_3.webp" alt="" class="img-fluid w-100">
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-2 d-flex flex-column justify-content-between pl-0">
+                    <div class="">
+                        <img src="../img/Sales/joyoung-kl35-d981-35-lit-thumb-1-600x600.jpg" alt=""
+                            class="img-fluid img-thumbnail">
+                    </div>
+                    <div class="">
+                        <img src="../img/Sales/e96c8fad7b869f7ab7d79782bf38e461.jpg_720x720q80.jpg_.webp" alt=""
+                            class="img-fluid img-thumbnail">
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-md-5">
+                <div class="col-md-12">
+                    <div class="">
+                        <h3 class="text-uppercase text-danger">Sản phẩm đang giảm giá</h3>
+                        <div class="owl-carousel owl-theme row mx-0" id="product-sales">
+                            <!-- Dữ liêu đươc đẩy vào đây bằng javascript -->
+
+                            <!-- <div class="item col px-md-0">
+                                <div class="card d-flex flex-column align-items-center m-md-2 ribbon">
+                                    <img class="card-img-top" src="../img/SanPhamSale/KangarooKG12AF1A.jpg"
+                                        alt="Card image">
+                                    <div class="card-body">
+                                        <h4 class="card-title product-name">Lò chiên không dầu Kangaroo KG12AF1A 12 lít
+                                        </h4>
+                                        <p class="text-center mb-1"><span class="price-old">5.230.000₫</span></p>
+                                        <p class="text-center text-danger price font-weight-bold m-md-0">4.270.000₫</p>
+                                    </div>
+                                    <div class="ribbon2">
+                                        <span>Giảm 37%</span>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row pt-md-5">
+                <div class="col-md-12">
+                    <h3 class="text-uppercase text-danger">Sản phẩm bán chạy nhất tuần qua</h3>
+                    <div class="owl-carousel owl-theme row mx-0" id="sanpham-banchay">
+                        <!-- Dữ liêu đươc đẩy vào đây bằng javascript -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="text-muted row" style="background-color: #dde2f1;">
+            <section class="border-bottom border-dark row w-100">
+                <div class="col-md-8 mt-3 text-uppercase">
+                    Liên hệ với chúng tôi qua:
+                </div>
+                <div class="col-md-4 d-flex flex-column justify-content-center">
+                    <div class="mt-3 d-flex justify-content-end">
+                        <a href="https://www.facebook.com/profile.php?id=100026380245604" class="mr-3"><i
+                                class="fab fa-2x fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/?hl=en" class="mr-3"><i
+                                class="fab fa-2x fa-instagram"></i></a>
+                        <a href="" class="mr-3"><i class="fab fa-2x fa-google"></i></a>
+                    </div>
+                </div>
+            </section>
+            <section class="row text-center border-bottom mt-4">
+                <div class="col">
+                    <h6 class="text-uppercase"><i class="fa fa-gem"></i>Gia dụng</h6>
+                    <p>Hệ thống chuyên cung cấp các mặt hàng đồ gia dụng, công nghệ. Nhằm đem tới những sản phẩm đáp ứng
+                        sự tinh tế của khách hàng, tạo những điểm nhấn khác biệt cho không gian gia đình.</p>
+                </div>
+                <div class="col">
+                    <h6 class="text-uppercase">Sản phẩm</h6>
+                    <div class="row">
+                        <div class="col">
+                            <p><a class="text-decoration-none text-reset" href="../html/SanPham.html">Nồi chiên không dầu</a></p>
+                            <p><a class="text-decoration-none text-reset" href="../html/SanPham.html">Máy rửa chén</a>
+                            </p>
+                            <p><a class="text-decoration-none text-reset" href="../html/SanPham.html">Máy pha cà phê</a>
+                            </p>
+                            <p><a class="text-decoration-none text-reset" href="../html/SanPham.html">Dụng cụ nhà
+                                    bếp</a></p>
+                        </div>
+                        <div class="col">
+                            <p><a class="text-decoration-none text-reset" href="../html/SanPham.html">Bếp điện - bếp
+                                    từ</a></p>
+                            <p><a class="text-decoration-none text-reset" href="../html/SanPham.html">Bếp ga</a></p>
+                            <p><a class="text-decoration-none text-reset" href="../html/SanPham.html">Lò vi sóng</a></p>
+                            <p><a class="text-decoration-none text-reset" href="../html/SanPham.html">Lò nướng</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h6 class="text-uppercase">Liên hệ</h6>
+                    <p><i class="fas fa-home"></i> 12 Nguyễn Văn Bảo, Phường 4, GV, TP.HCM</p>
+                    <p><i class="fas fa-envelope"></i> 20098151.quan@student.iuh.edu.vn</p>
+                    <p><i class="fas fa-phone"></i> 033.9424.070</p>
+                </div>
+            </section>
+            <div class="text-center p-3 w-100" style="background-color: rgba(0, 0, 0, 0.05);">
+                &copy; 2022 Copyright
+            </div>
+        </footer>
+    </div>
+
+    <!-- Modal đăng nhập -->
+    <!-- Phần modal: impor thư viện mba -->
+    <div class="modal fade" id="signinPage">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header text-center">
+                    <h3 class="modal-title w-100 dark-grey-text font-weight-bold">Đăng nhập</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-lable="close">&times;</button>
+                </div>
+
+                <div class="modal-body mx-4">
+                    <div class="md-form">
+                        <input type="email" class="form-control validate">
+                        <label data-error="wrong" data-success="right">Tên đăng nhập</label>
+                    </div>
+
+                    <div class="md-form">
+                        <input type="password" class="form-control validate">
+                        <label data-error="wrong" data-success="right">Mật khẩu</label>
+                        <p class="font-small blue-text d-flex justify-content-end"><a href="#"
+                                class="blue-text ml-1">Quên
+                                mật khẩu?</a></p>
+                    </div>
+
+                    <div class="text-center mb-3">
+                        <button type="button" class="btn btn-primary btn-block z-depth-1a">Đăng nhập</button>
+                    </div>
+                    <p class="font-small dark-grey-text d-flex justify-content-center">hoặc đăng nhập với:</p>
+
+                    <div class="row my-3 justify-content-center">
+                        <button type="button" class="btn btn-primary z-depth-1a"><i
+                                class="fab fa-facebook-f text-center"></i></button>
+                        <button type="button" class="btn btn-purple z-depth-1a"><i
+                                class="fab fa-twitter text-center"></i></button>
+                        <button type="button" class="btn btn-red z-depth-1a"><i
+                                class="fab fa-google-plus-g text-center"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        includeHTML();
+    </script>
+</body>
+
+</html>

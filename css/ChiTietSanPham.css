@@ -1,0 +1,51 @@
+.picture img {
+    width: inherit;
+    height: 300px;
+    object-fit: contain;
+    display: block;
+}
+
+.checked {
+    color: orange;
+}
+
+#tinhtrang {
+    font-family: 'Poppins', sans-serif;
+}
+
+.sharebuttons a {
+    color: #fff !important;
+    font-size: 10px;
+}
+
+.btn-facebook {
+    background: #3b5998;
+}
+
+.btn-twitter {
+    background: #00acee;
+}
+
+.btn-messenger {
+    background: #0094FF;
+}
+
+.btn-copy {
+    background: #32383a;
+}
+
+.btn-facebook:hover {
+    background: #2f4679;
+}
+
+.btn-twitter:hover {
+    background: #0089bd;
+}
+
+.btn-messenger:hover {
+    background: #169dfd;
+}
+
+.btn-copy:hover {
+    background: #42484b;
+}

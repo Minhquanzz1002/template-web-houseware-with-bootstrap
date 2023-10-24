@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/Logo/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/TrangChu.css">
+    <link rel="stylesheet" href="../css/mdb.css">
+    <link rel="stylesheet" href="../css/hover-min.css">
+    <link rel="stylesheet" href="../css/ChiTietSanPham.css">
+    <title>Chi tiết sản phẩm</title>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/mdb.min.js"></script>
+    <script src="../js/TrangChu.js"></script>
+    <script src="../js/ChiTietSanPham.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="row" style="background-color: #3F4451;">
+            <div class="col-md-1">
+                <a href="../html/TrangChu.html"><img src="../img/Logo/logo2.png" alt=""></a>
+            </div>
+            <nav class="navbar navbar-expand col-md-8">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item pf-5 pr-5 align-items-center font-weight-bold"><a href="../html/TrangChu.html"
+                            class="nav-link navbar-link">TRANG CHỦ</a></li>
+                    <li class="nav-item dropdown pf-5 pr-5 align-items-center font-weight-bold">
+                        <a href="" class="nav-link navbar-link dropdown-toggle" data-toggle="dropdown">SẢN PHẨM</a>
+                        <div class="dropdown-menu">
+                            <a href="../html/SanPham.html" class="dropdown-item pt-1 pb-0">Nồi chiên không dầu</a>
+                            <a href="../html/SanPham.html" class="dropdown-item pt-1 pb-0">Bếp điện - bếp từ</a>
+                            <a href="../html/SanPham.html" class="dropdown-item pt-1 pb-0">Dụng cụ nhà bếp</a>
+                            <a href="../html/SanPham.html" class="dropdown-item pt-1 pb-0">Bếp ga</a>
+                            <a href="../html/SanPham.html" class="dropdown-item pt-1 pb-0">Lò vi sóng</a>
+                            <a href="../html/SanPham.html" class="dropdown-item pt-1 pb-0">Lò nướng</a>
+                            <a href="../html/SanPham.html" class="dropdown-item pt-1 pb-0">Máy rửa chén</a>
+                            <a href="../html/SanPham.html" class="dropdown-item pt-1 pb-0">Máy pha cà phê</a>
+                        </div>
+                    </li>
+                    <li class="nav-item pf-5 pr-5 align-items-center font-weight-bold"><a href="../html/LienHe.html"
+                            class="nav-link navbar-link">LIÊN HỆ</a></li>
+                    <li class="nav-item pf-5 pr-5 align-items-center font-weight-bold"><a href="../html/VeChungToi.html"
+                            class="nav-link navbar-link">VỀ CHÚNG TÔI</a></li>
+                </ul>
+            </nav>
+            <div class="col-md-3">
+                <div class="row h-100">
+                    <div class="col-md d-flex flex-column justify-content-around">
+                        <div>
+                            <div class="d-inline-flex">
+                                <div class="d-flex flex-column justify-content-around"><i
+                                        class="fas fa-user-circle fa-2x navbar-link"></i></div>
+                                <div>
+                                    <a href="" class="text-decoration-none navbar-link" id="btnDangNhap"
+                                        data-toggle="modal">Đăng nhập</a>
+                                    <a href="../html/DangKy.html" class="text-decoration-none navbar-link">Đăng ký</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md d-flex flex-column justify-content-around">
+                        <div class="">
+                            <div class="d-inline-flex">
+                                <div class="d-flex flex-column justify-content-around"><i
+                                        class="fas fa-cart-shopping fa-2x navbar-link"></i></div>
+                                <div class="d-flex flex-column justify-content-around">
+                                    <a href="../html/GioHang.html" class="text-decoration-none navbar-link">Giỏ
+                                        hàng</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div>
+                <div class="row w-100">
+                    <ol class="breadcrumb bg-white">
+                        <li class="breadcrumb-item"><a href="../html/TrangChu.html">Trang chủ</a></li>
+                        <li class="breadcrumb-item" aria-current="page">Chi tiết sản phẩm</li>
+                    </ol>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-12">
+                                <div id="lotus" class="picture">
+                                    <img class="img-fluid" src="../img/BepTu/hommy-fs-ic324-2-1.jpg" alt="Lotus">
+                                </div>
+                                <div id="boat" class="picture" style="display:none">
+                                    <img class="img-fluid" src="../img/BepTu/hommy-fs-ic324-3.jpg" alt="Boat">
+                                </div>
+                                <div id="leaves" class="picture" style="display:none">
+                                    <img class="img-fluid" src="../img/BepTu/hommy-fs-ic324-4.jpg" alt="Leaves">
+                                </div>
+                                <div id="rocks" class="picture" style="display:none">
+                                    <img class="img-fluid" src="../img/BepTu/hommy-fs-ic324-7.jpg" alt="Rocks">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col">
+                                <a href="javascript:void(0)" class="myhover" onclick="openImg('lotus');">
+                                    <img class="img-fluid" src="../img/BepTu/hommy-fs-ic324-2-1.jpg" alt="Lotus">
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="javascript:void(0)" class="myhover" onclick="openImg('boat');">
+                                    <img class="img-fluid" src="../img/BepTu/hommy-fs-ic324-3.jpg" alt="Boat">
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="javascript:void(0)" class="myhover" onclick="openImg('leaves');">
+                                    <img class="img-fluid" src="../img/BepTu/hommy-fs-ic324-4.jpg" alt="Leaves">
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="javascript:void(0)" class="myhover" onclick="openImg('rocks');">
+                                    <img class="img-fluid" src="../img/BepTu/hommy-fs-ic324-7.jpg" alt="Rocks">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Bếp từ Hommy FS-IC324</h4>
+                        <div>
+                            <ul class="list-unstyled list-inline">
+                                <li class="list-inline-item"><span class="fa fa-star checked"></span></li>
+                                <li class="list-inline-item"><span class="fa fa-star checked"></span></li>
+                                <li class="list-inline-item"><span class="fa fa-star checked"></span></li>
+                                <li class="list-inline-item"><span class="fa fa-star checked"></span></li>
+                                <li class="list-inline-item"><span class="fa fa-star"></span></li>
+                            </ul>
+                        </div>
+                        <p id="tinhtrang">
+                            <span>Tình trạng: </span>
+                            <span class="text-success">Còn hàng</span>
+                        </p>
+                        <ul class="text-muted">
+                            <li><span>Thương hiệu: </span>Hommy</li>
+                            <li><span>Dòng sản phẩm: </span>Bếp từ đơn</li>
+                            <li><span>Mua hàng: </span>0339.424.070</li>
+                            <li><span>Bảo hành: </span>0339.424.070</li>
+                        </ul>
+                        <div>
+                            <span class="text-danger " style="font-size: 30px;">841.000₫</span>
+                            <span class="pl-3" style="font-size: 18px; text-decoration: line-through;">1.330.000₫</span>
+                        </div>
+                        <button type="button" class="btn btn-dark my-3 hvr-sweep-to-right">Thêm vào giỏ
+                            hàng</button>
+                        <div>
+                            <div>Chia sẻ:</div>
+                            <div>
+                                <div class="sharebuttons btn-group btn-group-justified">
+                                    <a href="" class="btn btn-twitter" target="_blank"><i
+                                            class="fa-brands fa-twitter"></i></i><span>Tweet</span></a>
+                                    <a href="" class="btn btn-facebook" target="_blank"><i
+                                            class="fa-brands fa-facebook-f"></i><span>Facebook</span></a>
+                                    <a href="" class="btn btn-messenger"><i
+                                            class="fa-brands fa-facebook-messenger"></i><span>Messenger</span></a>
+                                    <a href="" class="btn btn-copy"><i class="fa-solid fa-copy"></i> <span>Copy
+                                            Link</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-md-5">
+                    <div class="col-md-6 pt-3">
+                        <h4 class="text-uppercase">Tính năng nổi bậc của sản phẩm</h4>
+                        <ul>
+                            <li class="py-md-2">Thương hiệu Hommy - Việt Nam, sản xuất tại Trung Quốc</li>
+                            <li class="py-md-2">Tiết kiệm điện</li>
+                            <li class="py-md-2">Mặt kính cao cấp</li>
+                            <li class="py-md-2">Nhỏ gọn, tiện lợi</li>
+                            <li class="py-md-2">Dễ dàng làm sạch</li>
+                            <li class="py-md-2">Tự ngắt bếp khi quá nhiệt</li>
+                            <li class="py-md-2">Vô hiệu hóa bảng điều khiển</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <table class="table table-striped">
+                                <caption style="caption-side: top;">
+                                    <h4 class="text-uppercase">Thông số kỹ thuật</h4>
+                                    <caption>
+                                    <tbody>
+                                <tr>
+                                    <td>Loại bếp:</td>
+                                    <td>Bếp từ đơn</td>
+                                </tr>
+                                <tr>
+                                    <td>Công suất</td>
+                                    <td>2000W</td>
+                                </tr>
+                                <tr>
+                                    <td>Chất liệu bề mặt</td>
+                                    <td>Kính Ceramic - Kedi (Trung Quốc)</td>
+                                </tr>
+                                <tr>
+                                    <td>Bảng điều kiển</td>
+                                    <td>Cảm ứng</td>
+                                </tr>
+                                <tr>
+                                    <td>Loại nồi nấu:</td>
+                                    <td>Chỉ sử dụng loại nồi có đế nhiễm từ</td>
+                                </tr>
+                                <tr>
+                                    <td>Tính năng an toàn</td>
+                                    <td>Khóa bảng điều khiểnTự ngắt khi bếp nóng quá tải</td>
+                                </tr>
+                                <tr>
+                                    <td>Tiện ích:</td>
+                                    <td>Có hẹn giờ</td>
+                                </tr>
+                                <tr>
+                                    <td>Sản xuất tại:</td>
+                                    <td>Trung Quốc</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="text-muted row" style="background-color: #dde2f1;">
+            <section class="border-bottom border-dark row w-100">
+                <div class="col-md-8 mt-3 text-uppercase">
+                    Liên hệ với chúng tôi qua:
+                </div>
+                <div class="col-md-4 d-flex flex-column justify-content-center">
+                    <div class="mt-3 d-flex justify-content-end">
+                        <a href="https://www.facebook.com/profile.php?id=100026380245604" class="mr-3"><i
+                                class="fab fa-2x fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/?hl=en" class="mr-3"><i
+                                class="fab fa-2x fa-instagram"></i></a>
+                        <a href="" class="mr-3"><i class="fab fa-2x fa-google"></i></a>
+                    </div>
+                </div>
+            </section>
+            <section class="row text-center border-bottom mt-4">
+                <div class="col">
+                    <h6 class="text-uppercase"><i class="fa fa-gem"></i>Gia dụng</h6>
+                    <p>Hệ thống chuyên cung cấp các mặt hàng đồ gia dụng, công nghệ. Nhằm đem tới những sản phẩm đáp ứng
+                        sự tinh tế của khách hàng, tạo những điểm nhấn khác biệt cho không gian gia đình.</p>
+                </div>
+                <div class="col">
+                    <h6 class="text-uppercase">Sản phẩm</h6>
+                    <div class="row">
+                        <div class="col">
+                            <p><a class="text-decoration-none text-reset" href="../html/SanPham.html">Nồi chiên không dầu</a></p>
+                            <p><a class="text-decoration-none text-reset" href="../html/SanPham.html">Máy rửa chén</a>
+                            </p>
+                            <p><a class="text-decoration-none text-reset" href="../html/SanPham.html">Máy pha cà phê</a>
+                            </p>
+                            <p><a class="text-decoration-none text-reset" href="../html/SanPham.html">Dụng cụ nhà
+                                    bếp</a></p>
+                        </div>
+                        <div class="col">
+                            <p><a class="text-decoration-none text-reset" href="../html/SanPham.html">Bếp điện - bếp
+                                    từ</a></p>
+                            <p><a class="text-decoration-none text-reset" href="../html/SanPham.html">Bếp ga</a></p>
+                            <p><a class="text-decoration-none text-reset" href="../html/SanPham.html">Lò vi sóng</a></p>
+                            <p><a class="text-decoration-none text-reset" href="../html/SanPham.html">Lò nướng</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h6 class="text-uppercase">Liên hệ</h6>
+                    <p><i class="fas fa-home"></i> 12 Nguyễn Văn Bảo, Phường 4, GV, TP.HCM</p>
+                    <p><i class="fas fa-envelope"></i> 20098151.quan@student.iuh.edu.vn</p>
+                    <p><i class="fas fa-phone"></i> 033.9424.070</p>
+                </div>
+            </section>
+            <div class="text-center p-3 w-100" style="background-color: rgba(0, 0, 0, 0.05);">
+                &copy; 2022 Copyright
+            </div>
+        </footer>
+    </div>
+
+    <!-- Modal đăng nhập -->
+    <!-- Phần modal: impor thư viện mba -->
+    <div class="modal fade" id="signinPage">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header text-center">
+                    <h3 class="modal-title w-100 dark-grey-text font-weight-bold">Đăng nhập</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-lable="close">&times;</button>
+                </div>
+
+                <div class="modal-body mx-4">
+                    <div class="md-form">
+                        <input type="email" class="form-control validate">
+                        <label data-error="wrong" data-success="right">Tên đăng nhập</label>
+                    </div>
+
+                    <div class="md-form">
+                        <input type="password" class="form-control validate">
+                        <label data-error="wrong" data-success="right">Mật khẩu</label>
+                        <p class="font-small blue-text d-flex justify-content-end"><a href="#"
+                                class="blue-text ml-1">Quên
+                                mật khẩu?</a></p>
+                    </div>
+
+                    <div class="text-center mb-3">
+                        <button type="button" class="btn btn-primary btn-block z-depth-1a">Đăng nhập</button>
+                    </div>
+                    <p class="font-small dark-grey-text d-flex justify-content-center">hoặc đăng nhập với:</p>
+
+                    <div class="row my-3 justify-content-center">
+                        <button type="button" class="btn btn-primary z-depth-1a"><i
+                                class="fab fa-facebook-f text-center"></i></button>
+                        <button type="button" class="btn btn-purple z-depth-1a"><i
+                                class="fab fa-twitter text-center"></i></button>
+                        <button type="button" class="btn btn-red z-depth-1a"><i
+                                class="fab fa-google-plus-g text-center"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

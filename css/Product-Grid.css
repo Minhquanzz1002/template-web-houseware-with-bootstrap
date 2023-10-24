@@ -1,0 +1,124 @@
+/*File css bố cục cho trang Sản phẩm*/
+
+
+.col-4 {
+    padding-right: 0;
+    margin-bottom: 15px;
+}
+
+.card {
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+    height: 320px;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 15px rgb(59, 59, 59);
+    transform: scale(1.01);
+}
+
+.card .product-name {
+    font-weight: 600;
+}
+
+.card-img img {
+    /* padding-top: 10px; */
+    width: inherit;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+}
+
+.price {
+    font-size: 0.9rem;
+}
+
+.text-del {
+    text-decoration: line-through;
+}
+
+
+label {
+    cursor: pointer
+}
+
+.tick {
+    display: block;
+    position: relative;
+    padding-left: 23px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin: 0
+}
+
+.tick input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0
+}
+
+.check {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px
+}
+
+.tick:hover input~.check {
+    background-color: #f3f3f3
+}
+
+.tick input:checked~.check {
+    background-color: #ffffff
+}
+
+.check:after {
+    content: "";
+    position: absolute;
+    display: none
+}
+
+.tick input:checked~.check:after {
+    display: block;
+    transform: rotate(45deg) scale(1)
+}
+
+.tick .check:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid rgb(0, 0, 0);
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg) scale(2)
+}
+
+/*Sửa thanh cuộn*/
+.chkThuongHieu {
+    height: 150px;
+    overflow-y: scroll;
+}
+
+.chkThuongHieu::-webkit-scrollbar {
+    width: 5px;
+}
+
+.chkThuongHieu::-webkit-scrollbar-track {
+    background: #eee;
+}
+
+.chkThuongHieu::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: #00d2ff;
+    background-image: linear-gradient(to top, #fff 0%, #000 100%);
+}
+
+#filter-product {
+    border-radius: 10px;
+}
